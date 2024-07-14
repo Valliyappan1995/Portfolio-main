@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="h1-top">
           <div className="h1-logo">
             <Link to="home" smooth={true} duration={500} className="h1-link">
-              <span>D</span>eepa
+              <span>V</span>alliyappan
             </Link>
           </div>
           <div className="nav-toggler">
