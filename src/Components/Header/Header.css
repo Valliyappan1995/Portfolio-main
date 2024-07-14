@@ -1,0 +1,21 @@
+
+.header-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-left: 250px;
+}
+.header-container .header-info {
+    margin-top: 30px;
+}
+.phone{
+    padding-left: 30px;
+}
+.header-container .header-info a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-container .header-info i{
+    color: #ff9301;
+}

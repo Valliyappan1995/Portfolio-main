@@ -1,0 +1,34 @@
+.skill {
+  padding: 90px 0;
+}
+.skill-title {
+  text-align: center;
+  font-size: 29px;
+  color: #ff9301;
+  padding-bottom: 3rem;
+}
+.skill-list-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.skill-list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.skill-item h4 {
+  font-size: 23px;
+}
+.skill-item i {
+  background-color: #ff9301;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 26px;
+  line-height: 60px;
+  text-align: center;
+  color: black;
+}

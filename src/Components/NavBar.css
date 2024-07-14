@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.nav-bar {
+  width: 170px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  padding: 30px;
+  height: 100%;
+  background-color: #0c0c14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid hsla(0, 0%, 100%, 0.613);
+}
+.h1-logo {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.h1-logo .h1-link {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 15px 20px;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.h1-logo .h1-link span {
+  font-family: "Clicker Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff9301;
+}
+.h1-logo .h1-link::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #ff9301;
+  border-left: 5px solid #ff9301;
+  bottom: 0;
+  left: 0;
+}
+.h1-logo .h1-link::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-top: 5px solid #ff9301;
+  border-right: 5px solid #ff9301;
+  top: 0;
+  right: 0;
+}
+.nav-toggler {
+  height: 40px;
+  width: 45px;
+  border: 1px solid #ff9301;
+  cursor: pointer;
+  position: fixed;
+  left: 300px;
+  top: 20px;
+  border-radius: 5px;
+  background-color: #0c0c14;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.nav-toggler span {
+  height: 2px;
+  width: 18px;
+  background-color: #ff9301;
+  display: inline-block;
+  position: relative;
+}
+.nav-toggler span::before {
+  content: "";
+  height: 2px;
+  width: 18px;
+  background-color: #ff9301;
+  position: absolute;
+  top: -6px;
+  left: 0;
+}
+.nav-toggler span::after {
+  content: "";
+  height: 2px;
+  width: 18px;
+  background-color: #ff9301;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+.nav-list {
+  margin-top: 50px;
+  padding-left: 18px;
+  list-style: none;
+}
+.nav-bar ul li a:hover {
+  color: #ff9301;
+}
+.nav-bar ul li a:active {
+  color: #ff9301;
+}
+.nav-list li {
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: block;
+}
+.nav-list li a {
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e5e5;
+  color: #fff;
+  display: block;
+}

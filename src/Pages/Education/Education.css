@@ -1,0 +1,90 @@
+.education {
+  padding: 90px 0;
+}
+.education-container .row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.education h2.title {
+  font-size: 26px;
+  color: #ff9301;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.education-content .time-line,
+.certificate .time-line {
+  padding: 30px 15px;
+  border: 1px solid #ff9301;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.education-content .time-line-item,
+.certificate .time-line-item {
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+.education-content .time-line-item::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  background-color: #ff9301;
+}
+.certificate .time-line-item::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 106%;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  background-color: #ff9301;
+}
+.education-content .time-line-item:last-child {
+  padding-bottom: 0;
+}
+.education-content i,
+.certificate i{
+  color: #ff9301;
+}
+.circle-dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+}
+.education-content .item-title,
+.certificate .item-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.education-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+.submit-btn {
+  background-color: #ff9301;
+  color: black;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  cursor: pointer;
+}
+.submit-btn:hover{
+  box-shadow: 0 0 10px #e5e5e5;
+  transform: scale(1.1);
+}

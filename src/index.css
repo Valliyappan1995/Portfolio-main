@@ -1,0 +1,107 @@
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    left: -270px;
+  }
+  .home-container,
+  .education-container,
+  .project-container,
+  .skill-container,
+  .contact-container,
+  .footer {
+    margin-left: 0;
+  }
+  .about-container {
+    margin-left: 60px;
+    flex: 0 0 80%;
+    max-width: 100%;
+  }
+ 
+}
+
+@media screen and (max-width: 995px) {
+  .home .home-container .content-box {
+    display: block;
+    padding-left: 100px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home .home-container .photo {
+    margin-top: 50px;
+  }
+  .home .home-container .type-box,
+  .about .about-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .education .education-container .education-content,
+  .education .education-container .certificate {
+    display: block;
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  .project .project-container .projects-list {
+    display: block;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 30px;
+    margin-right: 80px;
+  }
+  .profile-photo::after {
+    margin-right: 42rem;
+  }
+}
+@media screen and (max-width: 728px) {
+  .home .home-container .content-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .skill .skill-container .skill-list-1,
+  .skill .skill-container .skill-list-2 {
+    display: block;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .profile-photo::after {
+    margin-right: 42rem;
+  }
+}
+@media screen and (max-width: 630px) {
+  .about .about-container .about-info .info-list .col-4,
+  .about .about-container .about-info .info-list .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 590px) {
+  .home .home-container .content-box {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 414px){
+  .home .profile-photo{
+    margin-left: 80px;
+  }
+  .home .profile-photo::after{
+    margin-right: 80px;
+  }
+  .home .profile-photo::before{
+    margin-left: 80px;
+  }
+  .home .desc{
+    padding: 20px;
+  }
+  .home .type-box h1{
+    font-size: 23px;
+  }
+  .education .education-content,
+  .certificate{
+    margin-right: 20px;
+  }
+  .contact .form .form-input{
+    width: 80%;
+  }
+  .contact .form .send-btn button{
+    width: 40%;
+  }
+}

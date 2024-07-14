@@ -1,0 +1,42 @@
+.contact {
+  padding: 90px 0;
+}
+.contact-title h3 {
+  color: #ff9301;
+  font-size: 29px;
+  text-align: center;
+}
+.contact-title p {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contact-form .form {
+  text-align: center;
+}
+.form-input {
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #ff9301;
+  color: black;
+}
+.form .form-input:focus {
+  box-shadow: 0 0 20px #ff9301;
+}
+.send-btn button {
+  background-color: #ff9301;
+  border: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px;
+  width: 15%;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.send-btn button:hover{
+  box-shadow: 0 0 10px #e5e5e5;
+  transform: scale(1.1);
+}

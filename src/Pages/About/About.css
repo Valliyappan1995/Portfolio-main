@@ -1,0 +1,47 @@
+.about {
+  padding: 90px 0;
+}
+.about .about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-info .title {
+  margin-bottom: 30px;
+}
+.title h1 {
+  margin: 0;
+  color: #ff9301;
+  font-weight: 600;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.about-text p {
+  color: hsla(0, 0%, 100%, 0.8);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 2;
+}
+.about-info .info-list {
+  padding-top: 15px;
+}
+.about-info .info-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.about-info .info-list li {
+  padding: 10px 0;
+  line-height: 1.4;
+}
+.about-info .info-list label {
+  color: #ff9301;
+  margin: 0;
+  font-weight: 700;
+  padding-right: 10px;
+}
+span {
+  color: hsla(0, 0%, 100%, 0.8);
+}
